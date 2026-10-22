@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173d34" />
+    <meta name="description" content="Discover handcrafted brass diyas and timeless Indian devotional decor at Ishvasya, Alibag." />
+    <title>Ishvasya — Forged for luxury</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23173d34'/%3E%3Ctext x='50' y='70' text-anchor='middle' font-family='Georgia' font-size='66' fill='%23d0a85c'%3EI%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="min-h-screen">
+    <div class="announcement-bar">
+      <span>Handcrafted in India, cherished for generations</span>
+      <span class="announcement-divider">✳</span>
+      <span>Complimentary shipping on orders of ₹2,999+</span>
+    </div>
+
+    <header class="site-header" id="top">
+      <div class="header-main page-shell">
+        <button class="icon-button mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+        </button>
+        <a class="brand" href="#top" aria-label="Ishvasya home">
+          <span class="brand-monogram" aria-hidden="true">I</span>
+          <span class="brand-copy">
+            <span class="brand-name">ishvasya</span>
+            <span class="brand-tagline">FORGED FOR LUXURY</span>
+          </span>
+        </a>
+        <form class="search-form" id="search-form" role="search">
+          <label class="sr-only" for="site-search">Search our collection</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" /><path d="m16 16 4.5 4.5" /></svg>
+          <input id="site-search" type="search" placeholder="Search diyas, decor & more..." autocomplete="off" />
+          <kbd>⌘ K</kbd>
+        </form>
+        <div class="header-actions">
+          <button class="icon-button header-account" id="account-open" type="button" aria-label="Open your account">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5" /><path d="M5 20a7 7 0 0 1 14 0" /></svg>
+          </button>
+          <button class="icon-button wishlist-header-button" id="wishlist-filter" type="button" aria-label="Show your wishlist" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 8.6c0 5.1-8.2 10.1-8.2 10.1S3.8 13.7 3.8 8.6a4.3 4.3 0 0 1 8.2-1.8 4.3 4.3 0 0 1 8.2 1.8Z" /></svg>
+            <span class="action-count wishlist-count" id="wishlist-count" hidden>0</span>
+          </button>
+          <button class="icon-button cart-header-button" id="cart-open" type="button" aria-label="Open shopping bag">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1.2 12H3.8L5 8Z" /><path d="M9 9V6a3 3 0 0 1 6 0v3" /></svg>
+            <span class="action-count" id="cart-count" hidden>0</span>
+          </button>
+        </div>
+      </div>
+      <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+        <a href="#collection">Shop all</a>
+        <a href="#collection" data-nav-category="Diya & lamps">Diyas & lamps</a>
+        <a href="#collection" data-nav-category="Pooja essentials">Pooja essentials</a>
+        <a href="#heritage">Our heritage</a>
+        <a href="#visit">Visit our store</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-shell" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-rule"></span> THE ART OF INDIAN BRASS</span>
+          <h1 id="hero-heading">Bring home the <em>glow</em> of something timeless.</h1>
+          <p>From our Alibag workshop to your sacred space, discover heirloom brass pieces made to hold meaning for generations.</p>
+          <div class="hero-actions">
+            <a href="#collection" class="button button-dark">Explore the collection <span aria-hidden="true">↗</span></a>
+            <a href="#heritage" class="text-link">Our story <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="hero-star" aria-hidden="true">✳</span>
+            <span>Rooted in tradition.<br /><strong>Made with devotion.</strong></span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="product_images/shared%20image%20(4).jpg" alt="Handcrafted brass peacock oil lamp from the Ishvasya heritage collection" fetchpriority="high" />
+          <div class="hero-art-frame" aria-hidden="true"></div>
+          <div class="hero-image-label"><span>THE HERITAGE COLLECTION</span><span class="label-line"></span><span>01 — 05</span></div>
+          <div class="hero-stamp"><span>MADE</span><span>WITH</span><span class="stamp-italic">reverence</span><span class="stamp-asterisk">✳</span></div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Our promises">
+        <div class="trust-item"><span class="trust-icon" aria-hidden="true">✳</span><span>Hand-finished<br /><strong>by Indian artisans</strong></span></div>
+        <span class="trust-divider" aria-hidden="true"></span>
+        <div class="trust-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v11H3zM14 11h4l3 3v4h-7z" /><circle cx="7.5" cy="19" r="1.5" /><circle cx="17.5" cy="19" r="1.5" /></svg><span>Free delivery<br /><strong>on orders of ₹2,999+</strong></span></div>
+        <span class="trust-divider" aria-hidden="true"></span>
+        <div class="trust-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z" /><path d="m9 12 2 2 4-4" /></svg><span>Made to last<br /><strong>backed by our care</strong></span></div>
+        <span class="trust-divider"></span>
+        <div class="trust-item"><span class="trust-icon" aria-hidden="true">₹</span><span>Simple, secure<br /><strong>checkout every time</strong></span></div>
+      </section>
+
+      <section class="collection-section page-shell" id="collection" aria-labelledby="collection-heading">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-rule"></span> OBJECTS WITH A SOUL</span>
+            <h2 id="collection-heading">Treasures to <em>keep</em></h2>
+            <p class="section-intro">Small-batch heirlooms, shaped by skilled hands and inspired by a thousand-year-old craft.</p>
+          </div>
+          <a href="#collection" class="text-link collection-view-link">Discover all five pieces <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="collection-controls">
+          <div class="category-filters" id="category-filters" aria-label="Filter by category">
+            <button class="filter-chip active" type="button" data-category="All" aria-pressed="true">All pieces <span class="filter-total">05</span></button>
+            <button class="filter-chip" type="button" data-category="Diya & lamps" aria-pressed="false">Diyas & lamps</button>
+            <button class="filter-chip" type="button" data-category="Pooja essentials" aria-pressed="false">Pooja essentials</button>
+            <button class="filter-chip" type="button" data-category="Home accents" aria-pressed="false">Home accents</button>
+          </div>
+          <label class="sort-control">
+            <span>Sort by</span>
+            <select id="sort-select" aria-label="Sort products">
+              <option value="featured">Curated for you</option>
+              <option value="price-low">Price: low to high</option>
+              <option value="price-high">Price: high to low</option>
+              <option value="name">Name: A to Z</option>
+            </select>
+          </label>
+        </div>
+        <div class="results-note" id="results-note" aria-live="polite"></div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <div class="no-results" id="no-results" hidden>
+          <span aria-hidden="true">✳</span>
+          <h3>No treasures found just yet.</h3>
+          <p>Try another search or explore the full collection.</p>
+          <button class="button button-dark" type="button" id="clear-filters">See all five pieces</button>
+        </div>
+      </section>
+
+      <section class="craft-banner" aria-label="Our craft promise">
+        <a class="craft-product craft-product-left" href="#collection" aria-label="Explore the handcrafted Kerala Brass Diya Pair">
+          <img src="product_images/shared%20image.jpg" alt="" loading="lazy" />
+          <span>KERALA DIYAS <span aria-hidden="true">↗</span></span>
+        </a>
+        <div class="craft-banner-copy">
+          <span class="craft-banner-eyebrow">A KEEPSAKE IN THE MAKING</span>
+          <p>A little brass.<br />A lifetime of <em>meaning.</em></p>
+          <a href="#heritage" class="text-link light-link">Discover the craft <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="craft-product craft-product-right" href="#collection" aria-label="Explore the handcrafted Engraved Brass Urli">
+          <img src="product_images/shared%20image%20(2).jpg" alt="" loading="lazy" />
+          <span>HAND-ENGRAVED <span aria-hidden="true">↗</span></span>
+        </a>
+      </section>
+
+      <section class="heritage-section page-shell" id="heritage">
+        <div class="heritage-photo">
+          <img src="product_images/shared%20image%20(2).jpg" alt="Intricately engraved handmade brass vessel resting on polished dark stone" loading="lazy" />
+          <span class="heritage-photo-caption">A CRAFT PASSED HAND TO HAND</span>
+        </div>
+        <div class="heritage-copy">
+          <span class="eyebrow"><span class="eyebrow-rule"></span> A LEGACY CAST IN BRASS</span>
+          <h2>Made slowly.<br /><em>Meant to stay.</em></h2>
+          <p>At Ishvasya, we believe the things we keep closest deserve to be made with care. Each piece begins in the hands of our artisans in Alibag, where age-old techniques turn solid brass into objects that feel like they already belong in your home.</p>
+          <p>The gentle irregularities, the warmth of the metal, the details you notice only up close. That is the mark of a real pair of hands at work.</p>
+          <a href="#visit" class="text-link">A little more about us <span aria-hidden="true">→</span></a>
+          <div class="heritage-signature">ishvasya <span>— made with devotion</span></div>
+        </div>
+      </section>
+
+      <section class="testimonials-section page-shell" aria-labelledby="testimonials-heading">
+        <span class="eyebrow"><span class="eyebrow-rule"></span> KIND WORDS, KEPT CLOSE</span>
+        <h2 id="testimonials-heading">The pieces that <em>find their home.</em></h2>
+        <div class="testimonials-grid">
+          <blockquote><span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span><p>“The finishing on the diya is just beautiful. It has found a special place in our prayer room, and I can tell we will treasure it for years.”</p><footer>PRIYA M. <span>— A LITTLE PIECE OF HOME</span></footer></blockquote>
+          <blockquote><span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span><p>“You can feel the craftsmanship the moment you open the box. A lovely, thoughtful gift that arrived carefully wrapped.”</p><footer>ANANYA R. <span>— GIFTED WITH LOVE</span></footer></blockquote>
+          <blockquote><span class="review-stars" aria-label="5 out of 5 stars">★★★★★</span><p>“More than an object, it feels like a keepsake. The warm brass and intricate details look even better in person.”</p><footer>ROHAN K. <span>— A KEEPSAKE TO KEEP</span></footer></blockquote>
+        </div>
+        <p class="reviews-note">A note: these are sample testimonials for this storefront demo.</p>
+      </section>
+
+      <section class="newsletter-section" aria-labelledby="newsletter-heading">
+        <div class="newsletter-inner page-shell">
+          <div><span class="eyebrow"><span class="eyebrow-rule"></span> A NOTE FROM US TO YOU</span><h2 id="newsletter-heading">Good things, <em>occasionally.</em></h2><p>New pieces, small rituals, and a first look at what the artisans are making.</p></div>
+          <form id="newsletter-form" class="newsletter-form"><label class="sr-only" for="newsletter-email">Your email address</label><input id="newsletter-email" type="email" placeholder="Your email address" required /><button type="submit" aria-label="Subscribe to our newsletter">Count me in <span aria-hidden="true">→</span></button><span id="newsletter-message" aria-live="polite"></span></form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="visit">
+      <div class="footer-main page-shell">
+        <div class="footer-brand-column"><a class="brand footer-brand" href="#top"><span class="brand-monogram" aria-hidden="true">I</span><span class="brand-copy"><span class="brand-name">ishvasya</span><span class="brand-tagline">FORGED FOR LUXURY</span></span></a><p>Pieces made with devotion, from our home in Alibag to yours.</p><span class="footer-address">✳&nbsp; Alibag, Maharashtra, India</span></div>
+        <div class="footer-links"><h3>EXPLORE</h3><a href="#collection">Shop all pieces</a><a href="#collection" data-nav-category="Diya & lamps">Diyas & lamps</a><a href="#collection" data-nav-category="Pooja essentials">Pooja essentials</a><a href="#heritage">Our heritage</a></div>
+        <div class="footer-links"><h3>HERE TO HELP</h3><a href="mailto:hello@ishvasya.in">Email our team</a><a href="#visit">Shipping & delivery</a><a href="#visit">Returns & care</a><a href="#visit">FAQs</a></div>
+        <div class="footer-contact"><h3>COME SAY HELLO</h3><p>Shop No. 1, Maruti Naka,<br />Bazar Peth, Alibag,<br />Raigad, Maharashtra 402201</p><a href="mailto:hello@ishvasya.in">hello@ishvasya.in&nbsp; ↗</a></div>
+      </div>
+      <div class="footer-bottom page-shell"><span>© <span id="current-year"></span> Ishvasya. Made with devotion.</span><span>Thoughtfully crafted in India&nbsp; ✳</span><a href="#top">Back to top ↑</a></div>
+    </footer>
+
+    <div class="overlay" id="drawer-overlay" hidden></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-hidden="true" inert>
+      <div class="drawer-header"><div><span class="eyebrow">A LITTLE SOMETHING, JUST FOR YOU</span><h2 id="cart-title">Your bag <span id="drawer-item-count">(0)</span></h2></div><button class="icon-button panel-close" type="button" data-close-panel aria-label="Close your bag">×</button></div>
+      <div class="shipping-progress" id="shipping-progress"></div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="empty-cart" id="empty-cart"><span aria-hidden="true">✳</span><h3>Your bag is waiting.</h3><p>The right piece has a way of finding its way home.</p><button class="button button-dark" type="button" data-close-panel>Explore the collection</button></div>
+      <div class="cart-summary" id="cart-summary">
+        <form class="coupon-form" id="coupon-form"><label for="coupon-code">HAVE A LITTLE PERK?</label><div><input id="coupon-code" type="text" placeholder="Enter discount code" autocomplete="off" /><button type="submit">Apply</button></div><span class="coupon-hint">Use <strong>HERITAGE10</strong> for 10% off or <strong>WELCOME5</strong> for 5%.</span><span id="coupon-message" aria-live="polite"></span></form>
+        <div class="summary-row"><span>Subtotal</span><span id="cart-subtotal">₹0</span></div><div class="summary-row discount-row" id="discount-row" hidden><span>Little something extra</span><span id="discount-amount">−₹0</span></div><div class="summary-row total-row"><strong>Total</strong><strong id="cart-total">₹0</strong></div>
+        <p class="tax-note">Taxes included. Shipping calculated at checkout.</p>
+        <button class="button button-dark checkout-button" id="checkout-open" type="button">Continue to checkout <span aria-hidden="true">→</span></button>
+        <button class="continue-shopping" type="button" data-close-panel>Continue browsing</button>
+      </div>
+    </aside>
+
+    <dialog class="site-dialog product-dialog" id="product-dialog" aria-labelledby="product-dialog-title"><button class="icon-button dialog-close" type="button" data-close-dialog aria-label="Close product details">×</button><div id="product-dialog-content"></div></dialog>
+
+    <dialog class="site-dialog checkout-dialog" id="checkout-dialog" aria-labelledby="checkout-title">
+      <button class="icon-button dialog-close" type="button" data-close-dialog aria-label="Close checkout">×</button>
+      <div class="dialog-heading"><span class="eyebrow">ALMOST HOME</span><h2 id="checkout-title">A few little <em>details.</em></h2><p>This demo records a sample order locally; payment is not processed.</p></div>
+      <form id="checkout-form" class="checkout-form">
+        <div class="checkout-fields">
+          <label>Full name<input name="name" autocomplete="name" required minlength="2" placeholder="As you'd like us to address you" /></label>
+          <label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
+          <label>Phone number<input name="phone" type="tel" autocomplete="tel" required pattern="\+?[0-9]{8,15}" placeholder="+919876543210" /></label>
+          <label>Delivery address<input name="address" autocomplete="street-address" required minlength="8" placeholder="House number, street and area" /></label>
+          <div class="checkout-fields-row"><label>City<input name="city" autocomplete="address-level2" required placeholder="City" /></label><label>PIN code<input name="pincode" inputmode="numeric" autocomplete="postal-code" required pattern="[0-9]{6}" maxlength="6" placeholder="402201" /></label></div>
+          <fieldset class="payment-options"><legend>HOW WOULD YOU LIKE TO PAY?</legend><label><input name="payment" type="radio" value="cod" checked /><span><strong>Cash on delivery</strong><small>Pay when your order arrives</small></span></label><label><input name="payment" type="radio" value="upi" /><span><strong>UPI on delivery</strong><small>Scan & pay when your order arrives</small></span></label></fieldset>
+        </div>
+        <div class="checkout-order-summary"><span>YOUR ORDER</span><div id="checkout-summary-items"></div><p><span>Total</span><strong id="checkout-total">₹0</strong></p><button class="button button-dark checkout-button" type="submit">Place sample order <span aria-hidden="true">→</span></button><small>Your details stay in this browser. No payment is collected.</small></div>
+      </form>
+    </dialog>
+
+    <dialog class="site-dialog account-dialog" id="account-dialog" aria-labelledby="account-title"><button class="icon-button dialog-close" type="button" data-close-dialog aria-label="Close account">×</button><div class="dialog-heading"><span class="eyebrow">WELCOME TO ISHVASYA</span><h2 id="account-title">A place of <em>your own.</em></h2><p id="account-message">Save your name on this device for a more personal visit.</p></div><form class="account-form" id="account-form"><label>Your name<input name="name" autocomplete="name" required minlength="2" placeholder="What shall we call you?" /></label><label>Email address<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label><button class="button button-dark checkout-button" type="submit">Save my details <span aria-hidden="true">→</span></button></form></dialog>
+
+    <dialog class="site-dialog success-dialog" id="success-dialog" aria-labelledby="success-title"><span class="success-flower" aria-hidden="true">✳</span><span class="eyebrow">A NEW KEEPSAKE IS ON ITS WAY</span><h2 id="success-title">Thank you, <em id="success-name">friend</em>.</h2><p id="success-message"></p><p class="demo-note">This is a sample storefront. No payment or actual order has been processed.</p><button class="button button-dark" id="success-dismiss" type="button">Back to the collection <span aria-hidden="true">↗</span></button></dialog>
+
+    <div class="toast-message" id="toast-message" role="status" aria-live="polite"></div>
+    <button class="mobile-cart-pill" id="mobile-cart-pill" type="button" hidden><span id="mobile-cart-count">0</span> treasures · <span id="mobile-cart-total">₹0</span><span aria-hidden="true">→</span></button>
+  </body>
+</html>
